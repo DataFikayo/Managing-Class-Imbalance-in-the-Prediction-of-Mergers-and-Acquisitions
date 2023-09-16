@@ -1,1 +1,3 @@
 # Managing-Class-Imbalance-in-the-Prediction-of-Mergers-and-Acquisitions
+
+Historical mergers and acquisition data from the Australian Stock Exchange ​(ASX. 2023)​  was explored to build and compare the accuracy of machine learning models that can predict the success of an M&A deal. Machine learning models including Random Forest. Logistics Regression and XGBoost were explored. The best prediction was gotten from Logistics regression in experiment 3, where equal data instance was extracted from the data before splitting into train and test. The result stood at 75.9% test accuracy. Other models like Random Forest and XGBoost show high signs of overfitting, as the training data were extremely high and almost equivalent to the test data.
